@@ -16,3 +16,7 @@
 > ### jetson 가속화 명령
 >       sudo nvpmodel -m 0
 >       sudo jetson_clocks
+
+> ## folder
+>
+> yolo_to_tensor.py -> 욜로로 학습한 모델을 tensor 엔진으로 경량화 시키는 코드
