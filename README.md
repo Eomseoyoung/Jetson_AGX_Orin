@@ -19,4 +19,4 @@
 
 > ## folder
 >
-> yolo_to_tensor.py -> 욜로로 학습한 모델을 tensor 엔진으로 경량화 시키는 코드
+> yolo_to_tensor.py -> 욜로로 학습한 모델을 tensor 엔진으로 변환하는 코드
