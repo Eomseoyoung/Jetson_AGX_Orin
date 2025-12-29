@@ -21,6 +21,21 @@
 >       sudo nvpmodel -m 0
 >       sudo jetson_clocks
 >
+> ### jetson-stats 설치 (HW engine확인)
+>       sudo apt update
+>       sudo apt install python3-pip python3-setuptools -y
+>       sudo pip3 install -U jetson-stats
+>       실행방법 cmd 창에서 jtop
+>
+> ### 멀티프로세싱
+>     카메라용 프로세싱부분 구현 (FAST API)
+>
+> ### OPENCV
+>     CUDA용으로 빌드
+>     pip install opencv-python 금지
+> ### e2e model 사용(YOLO)
+>     export부분만 변경
+>     nms, half 둘 다 True로 변경
 > ### 검증
 > 
 > ### CUDA
