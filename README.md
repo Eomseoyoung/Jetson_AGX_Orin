@@ -1,5 +1,6 @@
-# jetson_orin
-> ### jetson orin 경량화
+# Jetson_AGX_Orin
+
+> ### Jetson_AGX_Orin 경량화
 > jetson orin 내부에서 pth를 1) ONNX로 변환후 2) TensorRT로 변환하는 방법에 대해 기술합니다.
 
 > ### folder
@@ -33,9 +34,9 @@
 > ### OPENCV
 >     CUDA용으로 빌드
 >     pip install opencv-python 금지
+> 
 > ### e2e model 사용(YOLO)
->     export부분만 변경
->     nms, half 둘 다 True로 변경
+>     .engine으로 변환 후 사용
 > ### 검증
 > 
 > ### CUDA
