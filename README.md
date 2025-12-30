@@ -1,13 +1,17 @@
-# Jetson_AGX_Orin
+# Jetson_AGX_Orin_64
 
+
+> ### 초기세팅
+>  * jetson os 설치
+>     1) Nvidia SDK manager를 통해 설치
+>    2) [NVIDIA SDK Manager로 Jetson AGX Orin에 Ubuntu 22.04 설치 ](https://2dudwns.tistory.com/29)
+> * jetson python lib 설치
+>      1) [휠파일(JetPack 6.2.1+b38)](https://pypi.jetson-ai-lab.io/jp6/cu126)
+>         
+>        wget https://pypi.jetson-ai-lab.io/jp6/cu126/+f/e1e/9e3dc2f4d5551/onnxruntime_gpu-1.23.0-cp310-cp310-linux_aarch64.whl#sha256=e1e9e3dc2f4d5551c5f0b5554cf490d141cd0d339a5a7f4826ac0e04f20a35fc
 > ### Jetson_AGX_Orin 경량화
-> jetson orin 내부에서 pth를 1) ONNX로 변환후 2) TensorRT로 변환하는 방법에 대해 기술합니다.
-
-> ### folder
+> jetson orin 내부에서 pth를 1) ONNX로 변환후 2) TensorRT로 변환하는 방법
 >
-> yolo_to_tensor.py -> 욜로로 학습한 모델을 tensor 엔진으로 변환하는 코드
-
-
 > ### onnx to tensorRT
 > onnx를 tensorRT로 변환 커맨드 명령어(jetson 내부에서 실행)
 >
@@ -37,9 +41,10 @@
 > 
 > ### e2e model 사용(YOLO)
 >     .engine으로 변환 후 사용
-> ### 검증
 > 
-> ### CUDA
+> ### folder
+> 
+> 
 > 
 > 
 > 
