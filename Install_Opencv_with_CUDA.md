@@ -198,7 +198,7 @@
     make -j$(nproc) 
     -> Jetson AGX orin 기준 30-60분 소요됨
 
-    CUDNN 깨진 상태 계속 발견 -> 진행중중
+    CUDNN 깨진 상태 계속 발견 -> 진행중
 
       
 
