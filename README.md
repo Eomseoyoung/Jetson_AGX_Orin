@@ -42,10 +42,4 @@
 > ### e2e model 사용(YOLO)
 >     .engine으로 변환 후 사용
 > 
-> ### folder
-> 
-> 
-> 
-> 
-> 
 
